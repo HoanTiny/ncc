@@ -124,6 +124,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding: 0 4px;
+    }
+
     .hiden-tablet {
         display: none;
     }

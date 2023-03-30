@@ -124,6 +124,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding: 0 4px;
+    }
+
     .hiden-tablet {
         display: none;
     }
@@ -138,12 +142,6 @@ body {
         background-color: #191718;
         width: 100%;
         height: 50px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin-bottom: 50px;
-        z-index: 1;
     }
 
     .sidebar ul {
